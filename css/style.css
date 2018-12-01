@@ -122,6 +122,7 @@ body{
     font-family: Montserrat-Medium;
     /*border: 1px solid black;*/
     font-size: 12px;
+    margin-right: 50px;
 }
 
 
@@ -177,4 +178,65 @@ body{
  .main-now-div{
     width: 430px;
     /*border: 1px solid black;*/
+ }
+
+ .section-three{
+    height: 1140px;
+ }
+
+ .offer-discription{
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    text-align:center;
+    width: 950px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .offer-div{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    /*border: 1px solid black;*/
+}
+
+ .offer-image{
+    float: left;
+    display: block;
+    /*border: 1px solid black;*/
+    margin-top: 5px;
+ }
+
+ .offer-explane{
+    text-align: left;
+    margin-left: 76px;
+    /*border: 1px solid black;*/
+
+ }
+
+ .offer-left{
+    /*border: 1px solid black;*/
+    margin-top: 120px;
+    width: 320px;
+ }
+
+ .offer-right{
+    /*border: 1px solid black;*/
+    margin-top: 120px;
+    width: 320px;
+ }
+
+ .explain-head{
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+ }
+
+ .explain-paragraph{
+    font-family: Montserrat-Medium;
+    font-size: 10px;
+ }
+
+ .offer-box{
+    height: 140px;
  }
