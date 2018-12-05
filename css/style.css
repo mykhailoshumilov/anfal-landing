@@ -49,7 +49,6 @@ body{
     text-align:center;
     margin: 0;
     letter-spacing: 2px;
-
 }
 
 .hero{
@@ -58,8 +57,6 @@ body{
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    /*border: 1px solid black;*/
-
 }
 
 .hero-left{
@@ -67,37 +64,32 @@ body{
     margin-top: 85px;
     margin-right: auto;
     margin-left: auto;
-    /*border: 1px solid black;*/
 }
 
 .hero-left-header{
     font-family: Montserrat-Bold;
     letter-spacing: normal;
     font-size: 21px;
-    /*border: 1px solid black;*/
 }
 
 .hero-left-discription{
     font-family: Myriad-Pro-Regular;
-    /*border: 1px solid black;*/
     margin-top: 55px;
 }
 
 .hero-buttons{
-    /*border: 1px solid black;*/
     margin-top: 65px;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-
 }
 
 .help-button-div{
     display: inline-flex;
 }
+
 .video-button-div{
     display: inline-flex;
-
 }
 
 .help-button{
@@ -108,7 +100,6 @@ body{
     text-decoration: none;
     font-family: Montserrat-Medium;
     color: #fff;
-    /*border: 1px solid black;*/
     font-size: 12px;
 }
 
@@ -120,7 +111,6 @@ body{
     border: 0;
     border-radius: 5px;
     font-family: Montserrat-Medium;
-    /*border: 1px solid black;*/
     font-size: 12px;
     margin-right: 50px;
 }
@@ -152,12 +142,10 @@ body{
     height: 2px;
     border: 1px solid #04b386;
     margin-top: 20px;
-
  }
 
  .main-now-heading{
     font-family: Montserrat-Regular;
-
  }
 
  .main-now-paragraph{
@@ -171,13 +159,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*border: 1px solid black;*/
-
  }
 
  .main-now-div{
     width: 430px;
-    /*border: 1px solid black;*/
  }
 
  .section-three{
@@ -198,31 +183,25 @@ body{
     justify-content: center;
     display: flex;
     margin-top: 40px;
-    /*border: 1px solid black;*/
 }
 
  .offer-image{
     float: left;
     display: block;
-    /*border: 1px solid black;*/
     margin-top: 5px;
  }
 
  .offer-explane{
     text-align: left;
     margin-left: 76px;
-    /*border: 1px solid black;*/
-
  }
 
  .offer-left{
-    /*border: 1px solid black;*/
     margin-top: 120px;
     width: 320px;
  }
 
  .offer-right{
-    /*border: 1px solid black;*/
     margin-top: 120px;
     width: 320px;
  }
@@ -239,4 +218,108 @@ body{
 
  .offer-box{
     height: 140px;
+ }
+
+ .section-four{
+    background-color: #f4f4f5;
+    height: 1240px;
+ }
+
+ .interface-screens{
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+ }
+
+.image-screen{
+
+}
+
+.image-screen-iphone{/
+}
+
+.image-screen-margin{
+
+    margin-right: -60px;
+    margin-left: -60px;
+}
+
+.image-screen-type-one{
+    margin-top: 75px;
+    width: 270px;
+}
+
+.image-screen-type-two{
+    width: 310px;
+    /*height: 480px;*/
+}
+
+.interface-button-help{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.question-form{
+    margin-top: 100px;
+}
+
+.question-form input,
+.question-form textarea{
+    display: block;
+    width: 550px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    border:none;
+    border-bottom: 1px solid #606264;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    resize: none;
+}
+
+.question-form button{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #10ac84;
+    color: #fff;
+    border:none;
+    padding: 20px 55px;
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.footer-trace-div{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.footer-trace{
+    width: 1170px;
+    height: 2px;
+    border: 1px solid #e4e4e4;
+    margin-top: 100px;
+    margin-bottom: 10px;
+ }
+
+ .icon-div{
+    display: flex;
+    justify-content: center;
+ }
+
+ .icon-div a{
+    color: #bdbec0;
+    padding: 30px;
+ }
+
+ .icon-div a:hover{
+    color: #10ac84 ;
  }
